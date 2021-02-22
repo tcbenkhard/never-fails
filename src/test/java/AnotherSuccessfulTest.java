@@ -1,16 +1,16 @@
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AnotherSuccessfulTest {
 
     @Test
     public void willAlwaysSucceed() {
-        assertTrue("Very stable test", true);
+        assertTrue(true, "Very stable test");
     }
 
     @Test
     public void willAlsoAlwaysSucceed() {
-        assertTrue("Cannot possibly fail", true);
+        assertTrue(true, "Cannot possibly fail");
     }
 }

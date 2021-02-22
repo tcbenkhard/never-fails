@@ -1,16 +1,16 @@
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class SuccessTest {
 
     @Test
     public void shouldNeverFail() {
-        assertTrue("This should never fail", true);
+        assertTrue(true, "This should never fail");
     }
 
     @Test
     public void shouldAlsoNeverFail() {
-        assertTrue("This should also never fail", true);
+        assertTrue(true, "This should also never fail");
     }
 }
